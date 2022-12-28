@@ -1,0 +1,21 @@
+{
+  "name": "aws-alarms-plugin",
+  "version": "1.0.0",
+  "description": "Parses the source TS file to get alarm information",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Protyay Banerjee",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1"
+  },
+  "dependencies": {
+    "aws-cdk": "^2.57.0",
+    "aws-cdk-lib": "^2.57.0",
+    "typescript": "4.9.4"
+  }
+}
