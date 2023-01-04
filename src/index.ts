@@ -31,4 +31,6 @@ function visitNodes(
     );
 }
 visitNodes(sourceFile, sourceFile);
+//TODO: For each lambda function , display what are the metrics being emitted.
+// Also, list all the alarms and their configurations being configured on these metrics.
 module.exports = { delint }
